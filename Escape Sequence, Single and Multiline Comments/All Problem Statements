@@ -1,0 +1,19 @@
+All Problem Statements:
+
+Basic Print — Write a Python program that prints your name, age, and favorite programming language on three separate lines using three separate print() statements.
+Single-line vs Multi-line Comments — Write a program that calculates the area of a rectangle. Add a single-line comment explaining the formula used, and a multi-line comment (docstring style) at the top describing what the program does.
+Newline Escape Sequence — Write a program that prints the following on separate lines using only one print() statement and the \n escape sequence:
+   Roses are red
+   Violets are blue
+   Python is fun
+   And so are you
+Tab Escape Sequence — Using \t, print a neatly aligned table of 3 items and their prices, e.g.:
+   Item        Price
+   Pen         10
+   Notebook    50
+Printing Quotes — Write a program that prints the sentence: She said, "Python is amazing!" using escape sequences for the double quotes.
+Backslash Escape Sequence — Print a Windows-style file path C:\Users\Admin\Documents correctly using the \\ escape sequence.
+Combining Escape Sequences — Write a program that prints a formatted receipt using \t and \n together, showing item name, quantity, and price aligned in columns.
+Print with sep and end Parameters — Write a program that prints the numbers 1, 2, 3, 4, 5 separated by - instead of a space, and ends the line with !!! instead of a newline.
+Commenting Out Code for Debugging — Given a program with 3 print() statements, comment out 2 of them so only one runs, and explain (in a comment) why you'd do this while debugging.
+Mini Project — ID Card Generator — Write a program that prints a formatted "ID card" (Name, Roll No, Course) using a mix of escape sequences (\n, \t) for layout, print() with multiple arguments, and comments explaining each section of the code.
