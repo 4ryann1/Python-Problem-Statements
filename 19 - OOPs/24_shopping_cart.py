@@ -19,4 +19,10 @@ class ShoppingCart:
         self.products.remove(name)
         print(f"The product {self.name} is removed from {self.products}")
 
-    def calc
+    def calculate_total(self):
+        total = 0
+        total += sum
+        return sum
+
+    def display_cart(self,products):
+        return products
