@@ -26,7 +26,7 @@ class Mobile:
         print(f"Brand: {self.brand}")
         print(f"Model: {self.model}")
 
-realme1 = Mobile("Realme","GT 6T",31000,95)
+realme1 = Mobile("Realme","GT 6T",30000,95)
 realme1.call(78)
 realme1.charge(23)
 realme1.display_status()
