@@ -14,7 +14,7 @@ class Mobile:
 
     def call(self,duration:int):
         if self.battery_percentage <= 0:
-            print(f"You cannot make a call with {self.battery_percentage}%}")
+            print(f"You cannot make a call with {self.battery_percentage}%")
             return
 
     def charge(self, amount):
@@ -22,7 +22,11 @@ class Mobile:
         return self.battery_percentage
 
     def display_status(self):
-        print(f"Price: {self.price}")
+        print(f"Price: Rs.{self.price}")
         print(f"Brand: {self.brand}")
         print(f"Model: {self.model}")
 
+realme1 = Mobile("Realme","GT 6T",31000,95)
+realme1.call(78)
+realme1.charge(23)
+realme1.display_status()
