@@ -45,11 +45,3 @@ class Student:
 # Create three Student objects
 
 student1 = Student("Aryan", 101, 85, 90, 88)
-student2 = Student("Rahul", 102, 72, 78, 75)
-student3 = Student("Amit", 103, 92, 95, 89)
-
-# Display results
-
-student1.display_result()
-student2.display_result()
-student3.display_result()
