@@ -24,9 +24,4 @@ class ShoppingCart:
         total += sum
         return sum
 
-    def display_cart(self):
-        for product in self.products:
-            print(product)
-
-sc1 = [1,2,3,4,5,7,8]
-sc1.display_cart()
+    
