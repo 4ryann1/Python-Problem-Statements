@@ -208,7 +208,7 @@ I continuously add new problems and topics to this repository.
 **Current Status:** 🚀 In Progress
 
 ```text
-Python Fundamentals       ██████████░░
+Python Fundamentals   v    ██████████░░
 Data Structures            ████████░░░░
 Functions                  ██████░░░░░░
 OOP                        ██████░░░░░░
@@ -227,30 +227,6 @@ Projects                   ███░░░░░░░░░
 * **Git**
 * **GitHub**
 * **VS Code**
-
----
-
-## 💻 Running the Programs
-
-Clone the repository:
-
-```bash
-git clone <your-repository-url>
-```
-
-Navigate to the repository:
-
-```bash
-cd Daily-Python-Problem-Solving
-```
-
-Run any Python file:
-
-```bash
-python Problem_01.py
-```
-
----
 
 ## 📌 Repository Philosophy
 
@@ -283,7 +259,7 @@ Problem Solving > Copying
 
 ---
 
-## ⭐ Follow the Journey
+## ⭐ Following the Journey
 
 This repository will continue to evolve as I learn, practice, and build.
 
