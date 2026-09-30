@@ -36,7 +36,6 @@ class BankAccount:
         print(f"The Account Holder Name: {self.account_holder}")
         print(f"The Account Number: {self.account_number}")
         print(f"The Account Balance: {self.balance}")
-        print("\n")
 
 acc1 = BankAccount(32010143568,"Aryan Mangesh Patil",12500)
 acc1.display_balance()
