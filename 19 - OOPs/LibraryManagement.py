@@ -51,3 +51,31 @@ class Library:
                     print(f"'{book.title}' was not borrowed.")
                 return
         print(f"Book '{title}' not found.")
+
+# Create Book objects
+book1 = Book("Python Programming", "Mark Lutz")
+book2 = Book("Clean Code", "Robert C. Martin")
+book3 = Book("The Pragmatic Programmer", "Andrew Hunt")
+
+# Create Library object
+library = Library()
+
+# Add books
+library.add_book(book1)
+library.add_book(book2)
+library.add_book(book3)
+
+# Show books
+library.show_books()
+
+# Borrow a book
+library.borrow_book("Clean Code")
+
+# Show books again
+library.show_books()
+
+# Return the book
+library.return_book("Clean Code")
+
+# Show books again
+library.show_books()
