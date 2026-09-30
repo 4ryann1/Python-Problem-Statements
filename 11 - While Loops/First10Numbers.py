@@ -1,9 +1,9 @@
-# Problem Statement: Print first 10 numbers
+# 1. Print Numbers from 1 to 10
+# Goal: Print sequential numbers using a loop counter.
 
-n = 0
-count = 2
+# Logic: Start counter at 1, loop while counter is <= 10, increment counter by 1 each turn.
 
+n = 1
 while n <= 10:
     print(n)
-    n = n + 2
-    count += 1
+    n += 1
