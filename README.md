@@ -69,31 +69,6 @@ The problems are organized into different Python topics, including:
 * Working with Multiple Objects
 * Objects as Data
 
-### 🟠 Iterators
-
-* `iter()`
-* `next()`
-* `StopIteration`
-* Custom Iterators
-* `__iter__()`
-* `__next__()`
-
-### 🔴 Advanced Topics
-
-As my Python skills improve, this repository will gradually include:
-
-* Exception Handling
-* File Handling
-* Modules & Packages
-* Generators
-* Decorators
-* Comprehensions
-* Regular Expressions
-* APIs
-* Database Connectivity
-* Advanced OOP
-* Python Projects
-
 ---
 
 ## 📈 Difficulty Progression
