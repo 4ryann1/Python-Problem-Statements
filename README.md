@@ -258,3 +258,11 @@ Problem Solving > Copying
 ```
 
 ---
+
+## ⭐ Following the Journey
+
+This repository will continue to evolve as I learn, practice, and build.
+
+If you find the problems useful, feel free to ⭐ the repository and explore the solutions.
+
+**Keep coding. Keep learning. Keep improving. 🐍🚀**
