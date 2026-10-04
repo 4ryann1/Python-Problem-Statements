@@ -1,16 +1,31 @@
-# This is a sample Python script.
+import tkinter as tk
+from tkinter import messagebox
 
-# Press Ctrl+F5 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# 1. Create the main application window
+root = tk.Tk()
+root.title("My First Python UI")
+root.geometry("1920x1080")  # Width x Height
 
+# 2. Define a function for the button action
+def on_submit():
+    user_text = entry.get()  # Get text from the input box
+    if user_text.strip():
+        messagebox.showinfo("Success", f"Chal re laudya: {user_text}")
+    else:
+        messagebox.showwarning("Warning", "Please enter something first!")
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press F9 to toggle the breakpoint.
+# 3. Add widgets (components) to the window
+# Text Label
+label = tk.Label(root, text="Enter your name:", font=("Arial", 12))
+label.pack(pady=10)  # pady adds vertical spacing
 
+# Input Box (Entry field)
+entry = tk.Entry(root, width=30, font=("Arial", 11))
+entry.pack(pady=5)
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+# Action Button
+submit_button = tk.Button(root, text="Submit", command=on_submit, bg="#4CAF50", fg="white")
+submit_button.pack(pady=15)
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# 4. Start the application's event loop
+root.mainloop()
