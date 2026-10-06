@@ -83,55 +83,6 @@ Problems are designed to gradually increase in difficulty.
 | 🟠 Level 4 | Advanced     | Complex Problem Solving     |
 | 🔴 Level 5 | Challenging  | Interview-Oriented Problems |
 
-The objective is not just to solve problems, but to **understand why the solution works**.
-
----
-
-## 📂 Repository Structure
-
-```text
-Daily-Python-Problem-Solving/
-│
-├── 01_Print_Statements/
-│   ├── Problem_01.py
-│   ├── Problem_02.py
-│   └── ...
-│
-├── 02_Variables/
-│   ├── Problem_01.py
-│   ├── Problem_02.py
-│   └── ...
-│
-├── 03_Data_Types/
-│   └── ...
-│
-├── 04_Strings/
-│   └── ...
-│
-├── 05_If_Else/
-│   └── ...
-│
-├── 06_Loops/
-│   └── ...
-│
-├── 07_Lists/
-│   └── ...
-│
-├── 08_Tuples/
-│   └── ...
-│
-├── 09_Dictionaries/
-│   └── ...
-│
-├── 10_Functions/
-│   └── ...
-│
-├── 11_OOP/
-│   └── ...
-│
-└── 12_Iterators/
-    └── ...
-```
 
 Each problem is maintained as a separate Python file to keep the practice organized and easy to follow.
 
