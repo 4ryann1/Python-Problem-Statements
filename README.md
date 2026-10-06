@@ -139,7 +139,27 @@ Each problem is maintained as a separate Python file to keep the practice organi
 
 ## 🔥 Daily Practice System
 
+My approach is simple:
 
+```text
+Learn a Concept
+      ↓
+Understand the Syntax
+      ↓
+Solve Problems
+      ↓
+Write the Code Myself
+      ↓
+Test & Debug
+      ↓
+Commit to GitHub
+      ↓
+Move to the Next Problem
+```
+
+Consistency is the priority.
+
+---
 
 ## 🧠 What I Focus On
 
