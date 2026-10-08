@@ -1,0 +1,81 @@
+NUMPY PROJECT IDEAS — AI/ML JOURNEY
+==========================================
+
+These projects reinforce NumPy used in numerical analysis and ML preparation. Avoid Pandas and ML libraries until you intentionally introduce them later.
+
+BASIC PROJECTS
+--------------
+
+1. Student Marks Analyzer
+Problem statement: Build a NumPy program that stores marks for multiple students across multiple subjects. Calculate student-wise and subject-wise averages, highest/lowest marks, totals, class statistics, pass/fail status, and students above the class average.
+Suggested skills: array creation, indexing, slicing, axis, mean, min, max, sum, Boolean masking, argmax, argmin, where.
+
+2. Sales Data Analyzer
+Problem statement: Create a synthetic monthly sales dataset for several products. Analyze total sales, average sales, best/worst months, product-wise totals, and months above a threshold.
+Suggested skills: arange, reshape, sum, mean, min, max, argmax, argmin, Boolean masking, where.
+
+3. Temperature Data Analyzer
+Problem statement: Generate daily temperature data for a month. Calculate average, minimum, maximum, standard deviation, unusually hot/cold days, and cumulative analysis.
+Suggested skills: random, mean, median, std, min, max, cumsum, Boolean masking, argsort.
+
+4. Image Pixel Statistics
+Problem statement: Represent a grayscale image as a 2D NumPy array. Calculate brightness statistics, identify dark/bright pixels, clip pixel values, normalize to [0,1], and inspect regions with slicing.
+Suggested skills: reshape, slicing, mean, std, min, max, clip, Boolean masking, normalization.
+
+5. Simple Dataset Cleaner
+Problem statement: Create a small numerical dataset containing NaN, infinity, outliers, and inconsistent ranges. Detect invalid values, replace missing values, handle infinities, clip extreme values, and standardize final features.
+Suggested skills: isnan, isinf, isfinite, nanmean, nanmedian, clip, mean, std, broadcasting.
+
+INTERMEDIATE PROJECTS
+---------------------
+
+1. NumPy-Based Student Performance Prediction
+Problem statement: Create student features such as study hours, attendance, assignments, and previous scores. Preprocess the features and implement a simple linear model using matrix multiplication to estimate final score.
+Suggested skills: random, reshape, indexing, standardization, broadcasting, matmul/@, mean, std.
+
+2. Customer Segmentation Preparation Tool
+Problem statement: Generate customer features such as age, income, purchase frequency, and spending. Clean missing values, scale features, calculate distances between customers, and identify customers closest to reference profiles.
+Suggested skills: nanmean, broadcasting, normalization, linalg.norm, sorting, indexing.
+
+3. Synthetic Classification Dataset Generator
+Problem statement: Generate a reproducible binary or multiclass dataset with numerical features. Add controlled noise and missing values, clean the data, shuffle it, and create train/test partitions while keeping features and labels aligned.
+Suggested skills: random/default_rng, Boolean masking, unique, permutation, concatenate, split, isnan.
+
+4. Feature Scaling Laboratory
+Problem statement: Compare raw features, min-max scaling, and standardization on synthetic data. Display statistics before/after transformation and verify the mathematical properties of each transformation.
+Suggested skills: mean, std, min, max, broadcasting, clip, reshape, allclose.
+
+5. Correlation and Feature Analysis Tool
+Problem statement: Generate correlated, weakly correlated, and independent features. Calculate covariance and correlation matrices, identify highly correlated feature pairs, and report potentially redundant features.
+Suggested skills: cov, corrcoef, abs, matrix indexing, argmax/argmin, Boolean masking.
+
+ADVANCED PROJECTS
+-----------------
+
+1. NumPy Linear Regression From Scratch
+Problem statement: Implement linear regression without Scikit-learn. Generate/load numerical data, preprocess features, add a bias term, calculate model weights with linear algebra, generate predictions, calculate MSE, and evaluate on a test set.
+Suggested skills: concatenate/hstack, transpose, @, linalg.solve or linalg.pinv, mean, square, random, splitting, standardization.
+
+2. K-Means Clustering From Scratch
+Problem statement: Implement K-Means using only NumPy. Initialize centroids, calculate distances from every sample to every centroid, assign clusters, update centroids, repeat until convergence/max iterations, and report assignments.
+Suggested skills: random, broadcasting, reshape, linalg.norm, argmin, mean, unique, array indexing.
+
+3. Principal Component Analysis From Scratch
+Problem statement: Implement basic PCA using only NumPy. Standardize a dataset, calculate covariance, obtain eigenvalues/eigenvectors, sort components, project data to lower dimensions, and report explained variance.
+Suggested skills: mean, std, broadcasting, cov, linalg.eig/eigh, argsort, slicing, matrix multiplication.
+
+4. Neural Network Forward Pass From Scratch
+Problem statement: Create a small feed-forward neural network with an input layer, one hidden layer, and an output layer. Initialize weights, calculate weighted sums, apply activations, and produce predictions using only NumPy. Focus on forward propagation first.
+Suggested skills: random, matrix multiplication, transpose, broadcasting, exp, maximum, sum, reshape, argmax.
+
+5. Complete NumPy ML Data Pipeline
+Problem statement: Build an end-to-end NumPy-only pipeline that generates synthetic data, introduces missing values/outliers, cleans data, performs numerical analysis, encodes a target, shuffles, splits train/test, standardizes using training statistics, calculates correlations, and feeds processed data into a simple NumPy model.
+Suggested skills: random/default_rng, indexing, slicing, Boolean masking, isnan, isinf, nanmean, clip, unique, concatenate, split, permutation, broadcasting, statistics, covariance/correlation, linalg, matrix multiplication.
+
+RECOMMENDED ORDER
+-----------------
+Basic 1 → 5
+Intermediate 1 → 5
+Advanced 1 → 5
+
+After completing the 30 revision problems and at least the first 3 basic projects, you should be ready to move to Pandas for the AI/ML journey.
