@@ -66,3 +66,9 @@ print("Minimum Position (row, column):", np.unravel_index(min_index, data.shape)
 print("\nMaximum Value in Complete Array:", data.max())
 print("Maximum Index (flattened):", max_index)
 print("Maximum Position (row, column):", np.unravel_index(max_index, data.shape))
+
+# Display matrix properties
+print("\nShape:", data.shape)
+print("Dimensions:", data.ndim)
+print("Total Elements:", data.size)
+print("Data Type:", data.dtype)
