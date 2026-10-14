@@ -21,3 +21,21 @@ data = np.array([
     [25, 35, np.nan]
 ])
 
+# Printing Missing Values
+print("Missing Values: ",np.isnan(data))
+
+# Counting Missing Values
+print("Total Missing Values: ", np.isnan(data).sum(axis=0))
+
+# Counting missing values feature-wise
+print("Couting Missing values feature-wise:", np.isnan(data, axis=0))
+
+# Calculate nanmean(), nanmedian(), nanmin(), nanamax()
+print(f"Mean: {np.nanmean(data, axis=0)}")
+print(f"Median: {np.nanmedian(data, axis=0)}")
+print(f"Max: {np.nanmax(data, axis=0)}")
+
+# Replace missing with respective mean values
+feature_means = np.nanmean(data, axis = 0)
+
+data = np.where(np.isnan(data), feature_means, data)
