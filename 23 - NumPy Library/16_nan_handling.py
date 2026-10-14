@@ -37,5 +37,9 @@ print(f"Max: {np.nanmax(data, axis=0)}")
 
 # Replace missing with respective mean values
 feature_means = np.nanmean(data, axis = 0)
-
 data = np.where(np.isnan(data), feature_means, data)
+print("Updated Array: ", data)
+
+# Verify no NaN values remain
+print("\nRemaining NaN Values:", np.isnan(data).sum())
+print("No NaN Remaining:", not np.isnan(data).any())
