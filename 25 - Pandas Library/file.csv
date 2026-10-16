@@ -1,0 +1,7 @@
+id,First Name,Last Name,Email,City,Signup Date,Is Active
+101,John,Doe,john.doe@example.com,New York,2026-01-15,true
+102,Jane,Smith,jane.smith@example.com,Los Angeles,2026-02-22,false
+103,Alex,Jones,alex.j@example.com,Chicago,2026-03-05,true
+104,Emily,Brown,emily.b@example.com,Houston,2026-04-12,true
+105,Michael,Green,m.green@example.com,Phoenix,2026-05-19,false
+106,Aryan,Patil,aryanfrom2005@gmail.com,Pune,2026-10-17,True
