@@ -14,3 +14,8 @@ def on_submit():
     else:
         messagebox.showwarning("Warning", "Please enter something first!")
 
+# 3. Add widgets (components) to the window
+# Text Label
+label = tk.Label(root, text="Enter your name:", font=("Arial", 12))
+label.pack(pady=10)  # pady adds vertical spacing
+
